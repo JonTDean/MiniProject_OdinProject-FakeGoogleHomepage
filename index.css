@@ -1,0 +1,41 @@
+/* HEADER STYLES*/
+#header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#header li {
+    display: flexbox;
+}
+
+/*HEADER LIST ITEMS*/
+#about{
+    justify-content: right;
+}
+#store{
+    justify-content: space-evenly;
+}
+#mail{
+
+}
+#images{
+
+}
+/* FOOTER STYLES*/
+#footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+#footer li{
+    display: inline;
+}
+
+h1{
+    color: aqua;
+}
