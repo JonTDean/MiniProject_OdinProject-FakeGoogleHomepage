@@ -125,6 +125,7 @@ div#vp{
             padding-right: 237px;
             opacity: 40%;
         }
+
         input.sbinput {
             background-color: transparent;
             border: none;
@@ -166,3 +167,43 @@ div#vp{
             cursor: pointer;
             user-select: none;
         }
+
+/* FOOTER STYLES */
+    nav.footer{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background:#f2f2f2
+    }
+
+    div#footer{
+        line-height: 40px;
+        min-width: 980px;
+        border-top: 1px solid#e4e4e4;
+        display:block;
+        list-style: none;
+    }
+
+
+    div#footer a{
+        text-decoration: none;
+        color:black;
+        font-size: 13px;
+        padding-left: 25px;
+        opacity: 50%;
+    }
+
+    div#rightside{
+        display:flex;
+        float: right;
+        margin-right: 32px;
+
+    }
+    
+    div#leftside a{
+        display: flex;
+        float: left;
+        padding-left: 30px;
+    }
+
