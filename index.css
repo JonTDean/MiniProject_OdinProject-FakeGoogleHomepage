@@ -43,7 +43,7 @@ div#vp{
             position: relative;
             text-align: right;
             align-items: center;
-            padding-right:40px;
+            padding-right:30px;
             }
 
         /*GMAIL AND IMAGES STYLE*/
@@ -94,4 +94,68 @@ div#vp{
                 outline: none;
             }
         
+/* Middle Page Google Logo, Search Bar, and Search Buttons */
+    center{
+        height: 233px;
+        margin-top: 198px; /* 156 sometimes */ 
+        }
+    /* Google Logo */
+        div#logo{
+            padding-bottom: 23px;
+        }
+    /* Search Bar */
+
+
+        div#sbcontainer{
+            background:#fff;
+            display: flex;
+            border: 1px solid#dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            z-index: 3;
+            height: 44px;
+            margin: 0 auto;
+            width: 582px;
+        }
+
+        input.sbinput {
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            padding-left: 30px;
+            color:rgba(0,0,0,.87);
+            word-wrap: break-word;
+            outline: none;
+            display: flex;
+            flex: 100%;
+            font-size: 16px;
+            line-height: 34px;
+            height: 40px !important;
             
+        }
+
+    /* Search Buttons */
+        div.searchbuttons{
+            display: inline-flex;
+            text-align: center;  
+            padding-top: 19px;
+            top: 53px;     
+            padding-right: 14px;
+        }
+        
+        div.searchbuttons p{
+            background-color:#f2f2f2;
+            border: 1px solid#f2f2f2;
+            border-radius: 4px;
+            color:#5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 6px;
+            padding: 0 16px;
+            line-height: 33px;
+            height: 34px;
+            min-width: 3px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
