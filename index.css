@@ -118,6 +118,13 @@ div#vp{
             width: 582px;
         }
 
+        img#mgimg{
+            width: 14px;
+            height: auto;
+            padding-top: 15px;
+            padding-right: 237px;
+            opacity: 40%;
+        }
         input.sbinput {
             background-color: transparent;
             border: none;
